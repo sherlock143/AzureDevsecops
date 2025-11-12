@@ -8,4 +8,4 @@ pool:
    echo "This is demo YAML file for DevSecops pipeline"
 
     displayName:
-    "print console Text for Demo"
+    "print console Text for Demo only"
