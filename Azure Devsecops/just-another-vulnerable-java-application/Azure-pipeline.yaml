@@ -1,11 +1,9 @@
 trigger:
-- master
+  - master
 
 pool:
   vmImage: 'ubuntu-latest'
-  steps:
-  -script: 
-   echo "This is demo YAML file for DevSecops pipeline"
 
-    displayName:
-    "print console Text for Demo only"
+steps:
+- script: echo "This is demo YAML file for DevSecops pipeline"
+  displayName: "Print console Text for Demo only"
